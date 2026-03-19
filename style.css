@@ -1,12 +1,12 @@
 body {
-    background-color: #fff0f5; /* Rosa lavanda bem clarinho */
+    background-color: #fff0f5; 
     text-align: center;
     font-family: sans-serif;
     padding: 20px;
 }
 
 h1 {
-    color: #db7093; /* PaleVioletRed */
+    color: #db7093; 
     text-decoration: underline;
     font-size: 1.2rem;
 }
@@ -22,7 +22,7 @@ h1 {
 }
 
 button {
-    background-color: #ffc0cb; /* Pink */
+    background-color: #ffc0cb; 
     padding: 15px;
     width: 90%;
     max-width: 320px;
