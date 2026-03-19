@@ -1,0 +1,39 @@
+body {
+    background-color: #fff0f5; /* Rosa lavanda bem clarinho */
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: #db7093; /* PaleVioletRed */
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+#caixa {
+    background-color: white;
+    border: 3px solid #db7093;
+    width: 90%; 
+    max-width: 320px; 
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 300px;
+}
+
+button {
+    background-color: #ffc0cb; /* Pink */
+    padding: 15px;
+    width: 90%;
+    max-width: 320px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+img {
+    border: 2px solid pink;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
