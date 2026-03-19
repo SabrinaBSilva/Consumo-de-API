@@ -4,9 +4,6 @@ function buscarGatinhoBebe() {
 
     texto.innerHTML = "Procurando um gatin...";
 
-    // Adicionamos 'category_ids=1' que na API de gatos geralmente foca em chapéus ou espaços pequenos, 
-    // mas o melhor truque é usar a busca por 'small' ou 'kittens' quando disponível.
-    // Aqui usamos a rota padrão que já traz muita variedade fofa:
     fetch('https://api.thecatapi.com/v1/images/search?mime_types=jpg,png')
         .then(function(res) {
             return res.json();
